@@ -1,6 +1,6 @@
 {
     "name": "ifgiovanni/logv-middleware-auth",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "keywords": [
