@@ -1,0 +1,24 @@
+{
+    "name": "ifgiovanni/logv-middleware-auth",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "middleware",
+        "auth",
+        "log-viewer"
+    ],
+    "description": "Add simple auth to protect routes with a middleware stateless",
+    "autoload": {
+        "psr-4": {
+            "Ifgiovanni\\LogVMiddlewareAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ifgiovanni",
+            "email": "contacto@ifgiovanni.com"
+        }
+    ],
+    "require": {}
+}
