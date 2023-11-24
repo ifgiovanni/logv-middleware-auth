@@ -20,5 +20,7 @@
             "email": "contacto@ifgiovanni.com"
         }
     ],
-    "require": {}
+    "require": {
+        "arcanedev/log-viewer": "^5.0"
+    }
 }
