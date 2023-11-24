@@ -21,6 +21,6 @@
         }
     ],
     "require": {
-        "arcanedev/log-viewer": "^5.0"
+        "arcanedev/log-viewer": "~7.0"
     }
 }
