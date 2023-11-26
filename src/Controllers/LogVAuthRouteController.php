@@ -3,10 +3,9 @@
 namespace Ifgiovanni\LogVMiddlewareAuth\Controllers;
 
 use Illuminate\Support\Facades\Cookie;
-use App\Http\Controllers\Controller;
 use Ifgiovanni\LogVMiddlewareAuth\Traits\JwtTrait;
 
-class LogVAuthRouteController extends Controller
+class LogVAuthRouteController
 {
     use JwtTrait;
 

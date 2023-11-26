@@ -1,0 +1,9 @@
+<phpunit>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>./tests/Unit</directory>
+        </testsuite>
+        <!-- Add more directories as needed -->
+    </testsuites>
+    <!-- Other configurations... -->
+</phpunit>

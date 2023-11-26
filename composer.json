@@ -14,6 +14,11 @@
             "Ifgiovanni\\LogVMiddlewareAuth\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "ifgiovanni",
@@ -22,5 +27,14 @@
     ],
     "require": {
         "arcanedev/log-viewer": "~7.0"
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "orchestra/testbench": "v5.20.0"
     }
 }
